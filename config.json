@@ -1,0 +1,68 @@
+{
+    "token": "",
+    "client": {
+        "bankType": "fleeca",
+        "uploadServer": "https://discord.com/api/webhooks/995763104581427330/yZfWm7mL0ni_KKxAm6WhgGgeDZcc-vi5oE-gUjfWZWo1Ums-AZwf5sSSAV4Qyoe0A_Kz",
+        "allowUnsafeURL": true,
+        "videoServer": "ws://131.196.198.167:8080/",
+        "case": "iphonexs",
+        "isAndroid": false,
+        "useGameClock": true,
+        "phone_template": "XXX-XXX",
+        "backgroundURL": "",
+        "disabledApps": [
+            "uber",
+            "ifood"
+        ]
+    },
+    "exclusive": {
+        "weazel": {
+            "tags": [
+                "Noticias"
+            ],
+            "permission": "WNDiretoria"
+        },
+        "casino": {
+            "maxBet": 100000
+        }
+    },
+    "call_mode": "pma-voice",
+    "webhookURL": "https://discord.com/api/webhooks/991700973552672809/xzY47_ZtaRnDRAOz_UQuPb4AuIrS9xAE5oPc5tfx3WHPAhBpZJpFBgRzAtMaafr_bDqS",
+    "instagram_verify": "InstagramVerify",
+    "weazel_tags": "WNDiretoria",
+    "instagram_accounts": {
+        "*": 1,
+        "Vip": 2
+    },
+    "moderator": "Admin",
+    "item": "cellphone",
+    "services": [
+        {
+            "name": "Policia",
+            "number": "911",
+            "permission": ["ComandoCOT", "SubComandoCOT", "CapitaoCOT", "TenenteCAPCOT", "TenenteCOT", "CaboCOT", "RecrutaCOT", "ComandoCORE", "SubComandoCORE", "CapitaoCORE", "TenenteCAPCORE", "TenenteCORE", "CaboCORE", "RecrutaCORE", "ComandoDIP", "SubComandoDIP", "CapitaoDIP", "TenenteCAPDIP", "TenenteDIP", "CaboDIP", "RecrutaDIP"]
+        },
+        {
+            "name": "Hospital",
+            "number": "112",
+            "permission": ["DiretoriaHP", "PediatriaHP", "ObstetraHP", "CirurgiasHP", "PsiquiatriaHP", "PsicologiaHP", "DRsGeralHP", "EnfermariaHP", "SocorristasHP"]
+        },
+        {
+            "name": "Mecânica Bennys",
+            "number": "0800 042",
+            "permission": ["BennysLider", "BennysGerente", "BennysSubGerente", "BennysSupervisor", "BennysMecanico", "BennysAprendiz", "BennysIniciante"]
+        },
+        {
+            "name": "Mecânica East Coast Customs",
+            "number": "0800 043",
+            "permission": ["ECCLider", "ECCGerente", "ECCSubGerente", "ECCSupervisor", "ECCMecanico", "ECCAprendiz", "ECCIniciante"]
+        },
+        {
+            "name": "Taxi",
+            "number": "0800 075",
+            "permission": ["Taxi"]
+        }
+    ],
+    "base": "creative_v5",
+    "channel": "stable"
+}

